@@ -1,5 +1,0 @@
-Options +FollowSymLinks
-RewriteEngine on
-RewriteCond %{HTTP_HOST} .
-RewriteCond %{HTTP_HOST} !^beambassador.tech
-RewriteRule (.*) http://beambassador.tech/$1 [R=301,L]
